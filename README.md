@@ -2,6 +2,17 @@
 
 一款 Obsidian 插件，用于在侧边栏快速查看和管理待办任务。
 
+## 截图
+
+### 桌面端
+![桌面端面板](screenshots/desktop.png)
+
+### 移动端
+![移动端面板](screenshots/mobile.png)
+
+### 新建待办
+![新建待办](screenshots/newtask.png)
+
 ## 功能
 
 - 自动扫描 Inbox 目录下的 Markdown 文件，解析标题、状态、截止日期、待办进度
