@@ -5,13 +5,13 @@
 ## 截图
 
 ### 桌面端
-![桌面端面板](screenshots/desktop.png)
+<img src="screenshots/desktop.png" width="700" />
 
 ### 移动端
-![移动端面板](screenshots/mobile.png)
+<img src="screenshots/mobile.png" width="300" />
 
 ### 新建待办
-![新建待办](screenshots/newtask.png)
+<img src="screenshots/newtask.png" width="500" />
 
 ## 功能
 
