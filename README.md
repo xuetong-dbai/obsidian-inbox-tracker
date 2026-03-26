@@ -17,27 +17,27 @@
 
 ## 安装
 
+### 推荐：通过 BRAT 安装（最简单）
+
+1. 在 Obsidian 中安装 [BRAT](https://github.com/TfTHacker/obsidian42-brat) 插件（社区市场搜索 "BRAT"）
+2. 打开 BRAT 设置，点击 **Add Beta plugin**
+3. 输入 `xuetong-dbai/obsidian-inbox-tracker`，点击 **Add Plugin**
+4. 进入 **设置 → 第三方插件**，启用 **Inbox Tracker**
+
+后续更新也由 BRAT 自动处理。
+
 ### 手动安装
 
-1. 下载以下三个文件：
-   - `main.js`
-   - `manifest.json`
-   - `styles.css`
-
-2. 在你的 Obsidian Vault 中创建插件目录：
-   ```
-   <你的Vault>/.obsidian/plugins/inbox-tracker/
-   ```
-
-3. 将三个文件复制到该目录下
-
+1. 前往 [Releases](https://github.com/xuetong-dbai/obsidian-inbox-tracker/releases) 下载 `main.js`、`manifest.json`、`styles.css`
+2. 在 Vault 中创建目录 `<你的Vault>/.obsidian/plugins/inbox-tracker/`
+3. 将三个文件放入该目录
 4. 重启 Obsidian，进入 **设置 → 第三方插件**，启用 **Inbox Tracker**
 
 ### 从源码构建
 
 ```bash
-git clone <repo-url>
-cd inbox-tracker
+git clone https://github.com/xuetong-dbai/obsidian-inbox-tracker.git
+cd obsidian-inbox-tracker
 npm install
 npm run build
 ```
