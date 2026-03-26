@@ -1,0 +1,9 @@
+{
+  "id": "inbox-tracker",
+  "name": "Inbox Tracker",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Track and manage your Inbox tasks with a sci-fi style dashboard",
+  "author": "ww.xuetong",
+  "isDesktopOnly": false
+}
